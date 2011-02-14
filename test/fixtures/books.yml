@@ -1,0 +1,33 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  author_name: MyString
+  author_surname: MyString
+  local: MyString
+  editor: MyString
+  year: 2011-02-13
+  edititon: 1
+  language: MyString
+  summary: MyText
+  key_word1: MyString
+  key_word2: MyString
+  key_word3: MyString
+  key_word4: MyString
+  key_word5: MyString
+  review: MyText
+
+two:
+  author_name: MyString
+  author_surname: MyString
+  local: MyString
+  editor: MyString
+  year: 2011-02-13
+  edititon: 1
+  language: MyString
+  summary: MyText
+  key_word1: MyString
+  key_word2: MyString
+  key_word3: MyString
+  key_word4: MyString
+  key_word5: MyString
+  review: MyText

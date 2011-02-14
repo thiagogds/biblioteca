@@ -1,4 +1,8 @@
 Biblioteca::Application.routes.draw do
+  devise_for :users do
+    root :to => "application#index"
+  end
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

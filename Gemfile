@@ -1,11 +1,16 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.3'
+gem 'rails', '3.0.4'
 
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
+gem 'mysql', '=2.8.1'
 
-gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'devise' # Devise must be required before RailsAdmin
+gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
+
+group :development, :test do
+  gem "heroku"
+end
+
 
 # Use unicorn as the web server
 # gem 'unicorn'
